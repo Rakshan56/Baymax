@@ -1,0 +1,1 @@
+"""Baymax backend application package."""
