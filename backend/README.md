@@ -13,11 +13,6 @@ This service is the server-side foundation for Baymax. It uses FastAPI, SQLAlche
 
 Admin accounts must be provisioned explicitly and are never created during API startup. In PowerShell, run this from the `backend` directory after PostgreSQL is available:
 
-```powershell
-$env:ADMIN_EMAIL = "admin@baymax.local"
-$env:ADMIN_PASSWORD = "<choose-a-long-password>"
-python -m app.create_admin
-```
 
 Use a long, unique password for any shared or deployed environment, and do not commit the values to source control.
 
